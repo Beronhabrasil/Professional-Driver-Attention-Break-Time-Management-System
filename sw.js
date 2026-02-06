@@ -1,5 +1,5 @@
 const CACHE_NAME = 'fahrzeit-alarm-v1';
-const urlsToCache = ['index.html', 'manifest.json', 'sw.js', 'icon-192.png', 'icon-512.png'];
+const urlsToCache = ['index.html', 'manifest.json', 'sw.js', 'me.png', 'me.png'];
 
 self.addEventListener('install', event => {
   event.waitUntil(
